@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <!-- Placeholder GLCWSA logo — replace this file (and logo-white.svg) with the real logo when ready -->
-  <circle cx="100" cy="100" r="96" fill="#9E1B32"/>
+  <circle cx="100" cy="100" r="96" fill="#000000"/>
   <circle cx="100" cy="100" r="86" fill="none" stroke="#ffffff" stroke-width="4"/>
   <text x="100" y="90" font-family="Montserrat, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff" text-anchor="middle">GL</text>
   <text x="100" y="118" font-family="Montserrat, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="4" fill="#ffffff" text-anchor="middle">CWSA</text>
