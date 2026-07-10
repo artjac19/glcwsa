@@ -3,12 +3,12 @@ import FooterNav from "./FooterNav";
 // Placeholder board — replace these entries with the real Great Lakes board as info comes in.
 // Add a `photo` filename (dropped into public/) to show a headshot instead of the gray circle.
 const BOARD: { name: string; position: string; school: string; photo?: string }[] = [
-  { name: "TBD", position: "Conference Chair", school: "TBD" },
-  { name: "TBD", position: "Vice Chair", school: "TBD" },
+  { name: "Braylon Lynch", position: "Conference Chair", school: "Miami of Ohio (Alum)" },
+  { name: "Mary Nelson", position: "Vice Chair", school: "Miami of Ohio (Alum)" },
   { name: "TBD", position: "Secretary", school: "TBD" },
   { name: "TBD", position: "Treasurer", school: "TBD" },
-  { name: "TBD", position: "Webmaster", school: "TBD" },
-  { name: "TBD", position: "AAC Rep", school: "TBD" },
+  { name: "Mario D'Annunzio", position: "Webmaster", school: "Grand Valley State University" },
+  { name: "Kasar Moos", position: "AAC Rep", school: "Ohio State University" },
 ];
 
 export default function AboutUs() {
