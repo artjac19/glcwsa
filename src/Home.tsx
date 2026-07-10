@@ -91,28 +91,28 @@ function Home() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="tournament-date">Sep 6-7</td>
+                  <td className="tournament-date">Sep 12-13</td>
                   <td className="tournament-name">Allentucky Waterbowl</td>
                   <td>Conklin, MI</td>
                 </tr>
                 <tr>
-                  <td className="tournament-date">Sep 6-7</td>
+                  <td className="tournament-date">Sep 12-13</td>
                   <td className="tournament-name">Southern Ohio Challenge</td>
                   <td>Harrison, OH</td>
                 </tr>
                 <tr>
-                  <td className="tournament-date">Sep 13-14</td>
+                  <td className="tournament-date">Sep 19-20</td>
                   <td className="tournament-name">Great Lakes Fling</td>
                   <td>Van Wert, OH</td>
                 </tr>
                 <tr>
-                  <td className="tournament-date">Sep 13-14</td>
+                  <td className="tournament-date">Sep 19-20</td>
                   <td className="tournament-name">Spartan Ripfest</td>
                   <td>South Haven, MI</td>
                 </tr>
                 <tr>
-                  <td className="tournament-date">Sep 20-21</td>
-                  <td className="tournament-name">Great Lakes Conference Championship</td>
+                  <td className="tournament-date">Sep 26-27</td>
+                  <td className="tournament-name">Great Lakes Classic</td>
                   <td>Van Wert, OH</td>
                 </tr>
               </tbody>
@@ -133,14 +133,14 @@ function Home() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="tournament-date">Sep 26-28</td>
-                  <td className="tournament-name">2025 Collegiate Regionals</td>
+                  <td className="tournament-date">Oct 2-4</td>
+                  <td className="tournament-name">2026 Great Lakes Regionals</td>
                   <td>PITS - Decatur, IL</td>
                 </tr>
                 <tr>
-                  <td className="tournament-date">October 16-18</td>
-                  <td className="tournament-name">2025 Collegiate Nationals</td>
-                  <td>Imperial Lakes - Imperial, CA</td>
+                  <td className="tournament-date">October 15-17</td>
+                  <td className="tournament-name">2026 Collegiate Nationals</td>
+                  <td>Imperial Lakes - Bel Acqua, CA</td>
                 </tr>
               </tbody>
             </table>

@@ -22,7 +22,7 @@ Several things are mocked until the real info arrives. Each is a single-spot swa
 
 | Pending item | Where to swap |
 |---|---|
-| Brand red (currently a guess: `#9E1B32`) | `src/index.css` → `--color-brand` (one line) |
+| Brand black (currently: `#000000`) | `src/index.css` → `--color-brand` (one line) |
 | Logo | Replace `public/logo.svg` and `public/logo-white.svg` |
 | Front-page photo (currently old Team Midwest photo) | Drop new photo in `public/`, change `HERO_IMAGE` const at the top of `src/Home.tsx` |
 | Board members (placeholder cards) | Edit the `BOARD` array at the top of `src/AboutUs.tsx` (supports optional `photo` filename) |

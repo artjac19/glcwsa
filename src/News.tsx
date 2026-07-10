@@ -14,7 +14,7 @@ export default function News({
   imageUrl,
   imageAlt = "News Thumbnail",
   linkUrl = "https://example.com",
-  description = "This is a sample description for the news item. It can be a few sentences long and will be replaced with real news content later. The image on the left is clickable and leads to more details.",
+  description = "Great Lakes Waterski Region Year 1",
   linkTitle = "Read More"
 }: NewsProps) {
   return (

@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 @theme {
-  /* Placeholder brand red — swap this ONE line when the real GLCWSA color is decided */
-  --color-brand: #9E1B32;
+  /* Placeholder brand black — swap this ONE line when the real GLCWSA color is decided */
+  --color-brand: #000000;
 }
 
 body {
