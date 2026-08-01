@@ -33,15 +33,15 @@ function App() {
   return (
     <div className="min-h-screen max-w-full overflow-x-hidden">
       <nav className="fixed top-0 left-0 right-0 flex justify-center items-stretch bg-brand h-20 gap-4 md:gap-8 lg:gap-12 z-50 max-w-full overflow-x-hidden box-border overflow-y-hidden border-b-4 border-white lg:border-b-0">
-        <img
-          src={`${import.meta.env.BASE_URL}logo-white.svg`}
-          alt="GLCWSA Logo"
-          className="absolute left-2 top-0 p-2 w-20 h-20 object-contain drop-shadow-lg cursor-pointer max-h-20 z-50"
+        <button
+          className="absolute left-2 top-0 h-20 flex items-center px-3 bg-transparent border-none text-white font-bold text-2xl tracking-wide cursor-pointer outline-none drop-shadow-lg z-50"
           onClick={() => {
             window.scrollTo({ top: 0 });
             setTimeout(() => window.location.reload(), 50);
           }}
-        />
+        >
+          GLCWSA
+        </button>
         {/* Desktop Tabs */}
         <div className="hidden lg:flex flex-1 min-w-0 justify-evenly items-center pl-[15vw] pr-[5vw] h-20 overflow-x-hidden overflow-y-hidden border-b-4 border-white">
           {tabs.map((tab) => (
