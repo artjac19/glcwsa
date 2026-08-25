@@ -29,7 +29,7 @@ export default function TeamInfo() {
         <div id="points-section"></div>
         <section className="mt-8">
           <h2 className="text-3xl text-center font-bold font-merriweather mb-4">Point Opportunities</h2>
-        <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Team Midwest Incentives</h3>
+        <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Team Great Lakes Incentives</h3>
         <p className="mb-4">The top 3 teams from the Midwest with the most points at the end of the combined Spring and Fall seasons will receive a cash reward at the WC banquet.</p>
         <ul className="list-disc list-inside mb-4 ml-6">
           <li>First Place = $750</li>
@@ -41,7 +41,7 @@ export default function TeamInfo() {
           <li className="font-bold mt-2">
             Tournament Preparedness
             <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-              <li>Having MCWSA, NCWSA, Conference money ready and correct (cash/check): 5 pts.</li>
+              <li>Having GLCWSA, NCWSA, Conference money ready and correct (cash/check): 5 pts.</li>
               <li>Having all eligibility forms completed and correct:
                 <ul className="list-disc list-inside mb-2 ml-6 font-normal">
                   <li>Points early (the Sunday prior to Conference): 20 pts.</li>

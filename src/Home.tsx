@@ -75,11 +75,11 @@ function Home() {
             <p className="text-gray-500 text-lg m-0">No news yet — check back soon!</p>
           </div>
         <div id="tourney-section" className="mb-8"></div>
-        <h2 className="mt-20 text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 lg:mb-8 text-center">2025 TOURNEY SCHEDULE</h2>
+        <h2 className="mt-20 text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 lg:mb-8 text-center">2026 TOURNEY SCHEDULE</h2>
         <div className="max-w-4xl mx-auto w-full sm:w-full md:w-4/5 lg:w-3/4 xl:w-2/3">
 
         <div className="mb-8">
-          <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4 font-['Montserrat']">Great Lakes</h3>
+          <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4 font-['Montserrat']">Great Lakes Region</h3>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse rounded-lg overflow-hidden">
               <thead>

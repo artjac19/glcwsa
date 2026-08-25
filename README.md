@@ -26,7 +26,7 @@ Several things are mocked until the real info arrives. Each is a single-spot swa
 | Logo | Replace `public/logo.svg` and `public/logo-white.svg` |
 | Front-page photo (currently old Team Midwest photo) | Drop new photo in `public/`, change `HERO_IMAGE` const at the top of `src/Home.tsx` |
 | Board members (placeholder cards) | Edit the `BOARD` array at the top of `src/AboutUs.tsx` (supports optional `photo` filename) |
-| Bylaws (currently the old MCWSA bylaws PDF) | Replace `public/bylaws.pdf` |
+| Bylaws (currently the old GLCWSA bylaws PDF) | Replace `public/bylaws.pdf` |
 | Tournament schedule | Tables in `src/Home.tsx` |
 | News (currently empty state) | Replace the empty-state card in `src/Home.tsx` with `<News …/>` items (`src/News.tsx` component is ready to use) |
 
