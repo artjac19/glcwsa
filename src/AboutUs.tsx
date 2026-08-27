@@ -3,12 +3,12 @@ import FooterNav from "./FooterNav";
 // Placeholder board — replace these entries with the real Great Lakes board as info comes in.
 // Add a `photo` filename (dropped into public/) to show a headshot instead of the gray circle.
 const BOARD: { name: string; position: string; school: string; photo?: string }[] = [
-  { name: "Braylon Lynch", position: "Conference Chair", school: "Miami of Ohio (Alum)" },
+  { name: "Braylon Lynch", position: "Conference Chair", school: "Miami of Ohio (Alum)", photo: "IMG_4018.jpeg" },
   { name: "Mary Nelson", position: "Vice Chair", school: "Miami of Ohio (Alum)" },
-  { name: "Ian Voss", position: "Secretary", school: "University of Cincinnati" },
+  { name: "Ian Voss", position: "Secretary", school: "University of Cincinnati", photo: "IMG_4021.jpeg" },
   { name: "Katie Harvat", position: "Treasurer", school: "Miami Of Ohio (Alum)" },
-  { name: "Mario D'Annunzio", position: "Webmaster", school: "Grand Valley State University" },
-  { name: "Kasar Moos", position: "AAC Rep", school: "Ohio State University" },
+  { name: "Mario D'Annunzio", position: "Webmaster", school: "Grand Valley State University", photo: "IMG_9054_Original.jpg" },
+  { name: "Kasar Moos", position: "AAC Rep", school: "Ohio State University", photo: "IMG_4017.jpeg" },
 ];
 
 export default function AboutUs() {
@@ -75,7 +75,7 @@ export default function AboutUs() {
           If you have any questions or concerns, please don't hesitate to <a href="https://forms.gle/ZshAZ17CmV5p2P9X9" className="underline">contact us</a>.
         </p>
         <p className="text-lg leading-relaxed mb-4">
-          Check us out on <a href="https://www.facebook.com/themcwsa/" className="underline">Facebook</a>.
+          Check us out on <a href="https://www.instagram.com/greatlakeswaterski?fbclid=IwY2xjawT6pFNwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMW1JNzh0NGNqWlQ5bDR2WlpzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEesDrTUdd3aXa1xq5uJ9oJc6xBBRpPUTbp0tMexpMs6p3jxQPRDKHxF2wqrk4_aem_TeiWcjtwAM1AJXW21ft0UA" className="underline">Facebook</a>.
         </p>
       </div>
 
