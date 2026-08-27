@@ -4,9 +4,9 @@ import FooterNav from "./FooterNav";
 // Add a `photo` filename (dropped into public/) to show a headshot instead of the gray circle.
 const BOARD: { name: string; position: string; school: string; photo?: string }[] = [
   { name: "Braylon Lynch", position: "Conference Chair", school: "Miami of Ohio (Alum)", photo: "IMG_4018.jpeg" },
-  { name: "Mary Nelson", position: "Vice Chair", school: "Miami of Ohio (Alum)" },
+  { name: "Mary Nelson", position: "Vice Chair", school: "Miami of Ohio (Alum)", photo: "IMG_4019.jpeg" },
   { name: "Ian Voss", position: "Secretary", school: "University of Cincinnati", photo: "IMG_4021.jpeg" },
-  { name: "Katie Harvat", position: "Treasurer", school: "Miami Of Ohio (Alum)" },
+  { name: "Katie Harvat", position: "Treasurer", school: "Miami Of Ohio (Alum)", photo: "IMG_4020.jpeg" },
   { name: "Mario D'Annunzio", position: "Webmaster", school: "Grand Valley State University", photo: "IMG_9054_Original.jpg" },
   { name: "Kasar Moos", position: "AAC Rep", school: "Ohio State University", photo: "IMG_4017.jpeg" },
 ];
@@ -17,21 +17,21 @@ export default function AboutUs() {
       <div id="about-section" className="max-w-5xl mx-auto mt-24 p-8 bg-white rounded shadow text-center">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <p className="text-lg leading-relaxed mb-4">
-          The Great Lakes Collegiate Water Ski Association (GLCWSA) is dedicated to promoting collegiate water skiing throughout the Great Lakes region.
+          The Great Lakes Region (GLR) is dedicated to promoting collegiate water skiing throughout the collegiate waterski community.
           Our mission is to support student-athletes, foster sportsmanship, and organize competitive events for teams and individuals of all skill levels.
         </p>
         <p className="text-lg leading-relaxed mb-4">
-          The GLCWSA is one of two conferences formed from the Midwest Collegiate Water Ski Association (GLCWSA). Historic Team Midwest records
+          The Great Lakes Region is one of two conferences formed from the Midwest Collegiate Water Ski Association (MCWSA). Historic Team Midwest records
           and the Hall of Fame are preserved at <a href="https://mcwsa.org" className="underline" target="_blank" rel="noopener noreferrer">mcwsa.org</a>.
         </p>
         <p className="text-lg leading-relaxed">
-          This website serves as a central hub for GLCWSA members, providing access to resources, team information, event schedules, and important updates.
+          This website serves as a central hub for GLR members, providing access to resources, team information, event schedules, and important updates.
         </p>
       </div>
 
       {/* Exec Board Section */}
       <div id="exec-board-section" className="max-w-5xl mx-auto mt-12 p-8 bg-white rounded shadow text-center">
-        <h1 className="text-3xl font-bold mb-4">GLCWSA Board</h1>
+        <h1 className="text-3xl font-bold mb-4">GLR Board</h1>
         <p className="text-gray-500 mb-6">Below is your Great Lakes Region Executive Board consisting of current and alumni team athletes!</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {BOARD.map((member, i) => (
@@ -57,7 +57,7 @@ export default function AboutUs() {
       <div id="bylaws-section" className="max-w-5xl mx-auto mt-12 p-8 bg-white rounded shadow text-center">
         <h1 className="text-3xl font-bold mb-4">Bylaws</h1>
         <p className="text-lg leading-relaxed mb-6">
-          The GLCWSA bylaws are being finalized. The GLCWSA bylaws below remain in effect in the meantime.
+          The GLR bylaws are being finalized. The GLR bylaws below remain in effect in the meantime.
         </p>
         <a
           href={`${import.meta.env.BASE_URL}bylaws.pdf`}
