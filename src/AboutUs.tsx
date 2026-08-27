@@ -14,6 +14,8 @@ const BOARD: { name: string; position: string; school: string; photo?: string }[
 export default function AboutUs() {
   return (
     <>
+      {/* About Us section temporarily hidden — change `false` to `true` to restore */}
+      {false && (
       <div id="about-section" className="max-w-5xl mx-auto mt-24 p-8 bg-white rounded shadow text-center">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <p className="text-lg leading-relaxed mb-4">
@@ -28,9 +30,10 @@ export default function AboutUs() {
           This website serves as a central hub for GLR members, providing access to resources, team information, event schedules, and important updates.
         </p>
       </div>
+      )}
 
       {/* Exec Board Section */}
-      <div id="exec-board-section" className="max-w-5xl mx-auto mt-12 p-8 bg-white rounded shadow text-center">
+      <div id="exec-board-section" className="max-w-5xl mx-auto mt-24 mb-24 p-8 bg-white rounded shadow text-center">
         <h1 className="text-3xl font-bold mb-4">GLR Board</h1>
         <p className="text-gray-500 mb-6">Below is your Great Lakes Region Executive Board consisting of current and alumni team athletes!</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -53,7 +56,8 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* Bylaws Section */}
+      {/* Bylaws Section — temporarily hidden, change `false` to `true` to restore */}
+      {false && (
       <div id="bylaws-section" className="max-w-5xl mx-auto mt-12 p-8 bg-white rounded shadow text-center">
         <h1 className="text-3xl font-bold mb-4">Bylaws</h1>
         <p className="text-lg leading-relaxed mb-6">
@@ -68,7 +72,10 @@ export default function AboutUs() {
           View Bylaws
         </a>
       </div>
+      )}
 
+      {/* Contact section temporarily hidden — change `false` to `true` to restore */}
+      {false && (
       <div id="contact-section" className="max-w-5xl mx-auto mt-12 mb-24 p-8 bg-white rounded shadow text-center">
         <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
         <p className="text-lg leading-relaxed mb-4">
@@ -78,13 +85,11 @@ export default function AboutUs() {
           Check us out on <a href="https://www.instagram.com/greatlakeswaterski?fbclid=IwY2xjawT6pFNwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMW1JNzh0NGNqWlQ5bDR2WlpzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEesDrTUdd3aXa1xq5uJ9oJc6xBBRpPUTbp0tMexpMs6p3jxQPRDKHxF2wqrk4_aem_TeiWcjtwAM1AJXW21ft0UA" className="underline">Facebook</a>.
         </p>
       </div>
+      )}
 
     <FooterNav
       links={[
-        { label: "About Us", id: "about-section" },
         { label: "Board", id: "exec-board-section" },
-        { label: "Bylaws", id: "bylaws-section" },
-        { label: "Contact Us", id: "contact-section" },
       ]}
     />
     </>
