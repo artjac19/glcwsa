@@ -124,9 +124,8 @@ export default function TeamInfo() {
               <tr><td className="px-4 py-1">Ohio University</td></tr>
               <tr><td className="px-4 py-1">Ohio State</td></tr>
               <tr><td className="px-4 py-1">Purdue</td></tr>
-              <tr><td className="px-4 py-1">Western Michigan</td></tr>
-              <tr><td className="px-4 py-1">West Virginia</td></tr>
-              <tr><td className="px-4 py-1">Wittenberg University</td></tr>
+               <tr><td className="px-4 py-1">Western Michigan</td></tr>
+               <tr><td className="px-4 py-1">Wittenberg University</td></tr>
             </tbody>
           </table>
         </div>
