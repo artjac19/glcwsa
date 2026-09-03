@@ -40,7 +40,7 @@ function App() {
             setTimeout(() => window.location.reload(), 50);
           }}
         >
-          GLCWSA
+          GLWSA
         </button>
         {/* Desktop Tabs */}
         <div className="hidden lg:flex flex-1 min-w-0 justify-evenly items-center pl-[15vw] pr-[5vw] h-20 overflow-x-hidden overflow-y-hidden border-b-4 border-white">

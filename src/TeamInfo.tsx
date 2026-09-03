@@ -114,6 +114,7 @@ export default function TeamInfo() {
               <tr><td className="px-4 py-1">Bowling Green</td></tr>
               <tr><td className="px-4 py-1">Cincinnati</td></tr>
               <tr><td className="px-4 py-1">Dayton</td></tr>
+              <tr><td className="px-4 py-1">Ferris State University</td></tr>
               <tr><td className="px-4 py-1">Grand Valley State</td></tr>
               <tr><td className="px-4 py-1">Indiana</td></tr>
               <tr><td className="px-4 py-1">Miami University</td></tr>

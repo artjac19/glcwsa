@@ -11,8 +11,8 @@ export default function Resources() {
       />
       <div id="resources" className="Resources mt-[80px] max-w-5xl mx-auto p-6">
       <section className="mb-20">
-        <h2 className="text-2xl font-bold mb-4 text-center text-3xl">Places to Ski</h2>
-        <div className="mx-auto text-gray-800 bg-white bg-opacity-90 rounded p-4 text-lg leading-relaxed mb-3">Amy and Christy are working on a program to match up collegiate skiers for the summer/post graduation with other AWSA people so y'all can continue to ski. Please out the form below if you need a spot to ski this summer!</div>
+        <h2 className="font-bold mb-4 text-center text-3xl">Places to Ski</h2>
+        <div className="mx-auto text-gray-800 bg-white bg-opacity-90 rounded p-4 text-lg leading-relaxed mb-3">Amy and Christy are working on a program to match up collegiate skiers for the summer/post graduation with other AWSA people so y'all can continue to ski. Please fill out the form below if you need a spot to ski this summer!</div>
         <div className="flex justify-center">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfMVJbvG9nFKRA8-9etoV14JEpcsdSk1inrNd6DLKkD3nRCNg/viewform"
@@ -33,7 +33,7 @@ export default function Resources() {
         />
         <div className="max-w-none mx-auto text-gray-800 bg-white bg-opacity-90 rounded p-4 text-lg leading-relaxed">
   If you’re considering becoming an official the first thing you need to figure out is what kind of official you want to be. Since we are in the GLCWSA, you’re most likely looking at becoming an assistant judge, scorer, driver or safety official. This guide will hopefully help to explain the positions as well as how to get involved in them.<br /><br />
- <h3 className="text-xl font-bold mt-6 mb-2">Acheiving and maintaining Assistant Ratings</h3>
+ <h3 className="text-xl font-bold mt-6 mb-2">Achieving and maintaining Assistant Ratings</h3>
   <ul>
     <li>You need to work four tournaments every two years in order to maintain your rating.</li>
     <li>For more information, read: <a href="https://www.usawaterski.org/ncwsa/become-a-judge">USA Waterski’s Writeup on Becoming a Judge</a></li>
@@ -117,36 +117,12 @@ export default function Resources() {
     <li>Although every effort is made to keep track of who has worked as a judge or scorer at a tournament, the best way to avoid ‘missed credits’ is to double check the paperwork. Make sure the Chief official has you properly recorded in the tournament’s Record of Officials and make sure you have your personal official’s record completed and signed at each tournament.</li>
     <li>After the tournament, check USA Waterski to make sure that credit has been recorded under your officials records right away.</li>
   </ul>
-  <br />
-  <h3 className="text-xl font-bold mt-6 mb-2">Team Midwest Official’s Incentive</h3>
-  The top 3 teams from the Midwest with the most points at the end of the combined Spring and Fall seasons will receive a cash reward at the WC banquet.<br />
-  <ul>
-    <li>First Place = $750</li>
-    <li>Second Place = $500</li>
-    <li>Third Place = $250</li>
-  </ul>
-  <br />
-  <h3 className="text-xl font-bold mt-6 mb-2">Points Breakdown</h3>
-  <ul>
-    <li>New or upgraded officials in their respective discipline will receive the following point values upon completion: Points per event will be given out:  if you work slalom, trick, and jump at a tournament, you will receive 3 points. If you just worked jump, then you will receive 1 point.</li>
-    <li>Judges and Scorers: 3 pts. per event for new and upgraded Judges and Scorers; 1 pt. per event worked (after completing your rating).</li>
-    <li>Drivers: 6 pts. per event for new and upgraded Drivers (Assistant and above); 1 pt. per event worked for Drivers (after completing your rating)</li>
-    <li>Safety: 6 pts.  per new and upgraded Safety (State and above); 3 pts. per tournament worked (ratings per event are not required and are not trackable, only the Chief Safety position at a tournament can be tracked, thus the higher number of points is given)</li>
-    <li>TC – (Technical Coordinator): 9 pts. for a new TC rating; 3 pts. per tournament worked (TC can only be tracked per tournament, so higher points are awarded).</li>
-  </ul>
-  <br />
-  <h3 className="text-xl font-bold mt-6 mb-2">Additional Information</h3>
-  <ul>
-    <li>You can find your personal ratings and events worked on the USA waterski homepage.  This is how your team’s points will be added up. Each official will send their ratings/events worked to their perspective team leader and then that team leader will compile all pictures for the team and send them to their conference chair.</li>
-    <li>Only collegiate tournaments will be counted for points, though we encourage you to stay involved and help at summer tournaments as well!</li>
-  </ul>
-  <br />
 </div>
 </section>
-<div id="records" className="mb-20"/>
+<div id="records" className="mb-20"></div>
 <section>
-        <h2 className="text-2xl font-bold mb-4 text-center text-3xl">Records</h2>
-        <p className="text-center text-gray-600 mb-6">Historic Team Midwest records are archived on <a href="https://mcwsa.org" className="underline" target="_blank" rel="noopener noreferrer">mcwsa.org</a>.</p>
+        <h2 className="font-bold mb-4 text-center text-3xl">Records</h2>
+        <p className="text-center text-gray-600 mb-6">Historic Great Lakes records are archived on <a href="https://mcwsa.org" className="underline" target="_blank" rel="noopener noreferrer">mcwsa.org</a>.</p>
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-2 mt-6">Men's Great Lakes Records</h3>
         <div className="overflow-x-auto">

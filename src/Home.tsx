@@ -1,76 +1,22 @@
-import { useEffect, useRef, useState } from 'react';
 import FooterNav from './FooterNav';
 
-// Placeholder front-page photo — drop a Great Lakes photo into public/ and change this filename.
-const HERO_IMAGE = 'teammidwest.webp';
-// Temporarily hidden — set to true to bring the front-page photo back.
-const SHOW_HERO = false;
+// Front-page collage — drop a photo into public/ and change this filename.
+const HERO_IMAGE = 'glr-cover.jpg';
 
 function Home() {
-  const imageRef = useRef<HTMLDivElement>(null);
-  const [aspect, setAspect] = useState(() => window.innerWidth / window.innerHeight);
-  const [speed, setSpeed] = useState(() => {
-    const aspect = window.innerWidth / window.innerHeight;
-    return aspect <= 4 / 3 ? 0 : 0.75;
-  });
-
-  useEffect(() => {
-    const updateAspectAndSpeed = () => {
-      const aspect = window.innerWidth / window.innerHeight;
-      setAspect(aspect);
-      setSpeed(aspect <= 4 / 3 ? 0 : 0.75);
-    };
-    window.addEventListener('resize', updateAspectAndSpeed);
-    updateAspectAndSpeed();
-    return () => window.removeEventListener('resize', updateAspectAndSpeed);
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (imageRef.current) {
-        imageRef.current.style.transform = `translateY(${-window.scrollY * speed}px)`;
-      }
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [speed]);
-
   return (
     <>
     <div className="flex flex-col w-full">
-      {/* Show parallax div only if aspect > 4/3 */}
-      {SHOW_HERO && aspect > 4/3 && (
-        <div className="w-full h-[100vh] overflow-hidden relative mt-[80px]">
-          <div
-            ref={imageRef}
-            className="w-full absolute top-0 left-0 h-[120%] z-0"
-            style={{
-              backgroundImage: `url(${import.meta.env.BASE_URL}${HERO_IMAGE})`,
-              backgroundSize: '100%',
-              backgroundPosition: 'top center',
-              backgroundRepeat: 'no-repeat',
-              willChange: 'transform'
-            }}
-          />
-        </div>
-      )}
-      {/* Show static image if aspect <= 4/3 */}
-      {SHOW_HERO && aspect <= 4/3 && (
+      <div className="w-full mt-[80px]">
         <img
           src={`${import.meta.env.BASE_URL}${HERO_IMAGE}`}
           alt="Great Lakes Collegiate Water Ski"
-          className="mt-[80px] mb-0 w-full h-auto"
+          className="w-full h-auto block"
         />
-      )}
+      </div>
 
-      <div
-        className="w-full bg-white px-6 py-8 z-10 rounded-t-3xl"
-        style={{
-          marginTop: !SHOW_HERO ? '80px' : aspect <= 4/3 ? '0' : '-30vh',
-          left: aspect <= 4/3 ? 0 : undefined,
-          right: aspect <= 4/3 ? 0 : undefined
-        }}
-      >
+      <div className="w-full bg-white px-6 py-8 z-10 rounded-t-3xl">
+
         {/* News section temporarily hidden — change `false` to `true` to restore */}
         {false && (
         <>
