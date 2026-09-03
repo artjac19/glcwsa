@@ -3,10 +3,10 @@ import FooterNav from "./FooterNav";
 export default function TeamInfo() {
   return (
     <>
+      <img src="/glcwsa/registration-team.jpg" alt="Registering a Team" className="w-full object-cover" />
       <div className="max-w-3xl mx-auto mt-[80px] p-6 bg-white rounded text-lg leading-relaxed ">
         <div id="checklist-section"></div>
         <section className="mt-8">
-          <img src="/registration-team.jpg" alt="Registering a Team" className="w-full h-auto mb-4 rounded" />
           <h2 className="text-3xl text-center font-bold font-merriweather mb-4">Registering a Team</h2>
           <p className="mb-4">The following checklist contains everything your team needs to complete in order to be eligible to ski at tournaments.</p>
           <ul className="list-disc list-inside mb-4 ml-6">
