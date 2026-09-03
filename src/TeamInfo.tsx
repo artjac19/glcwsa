@@ -4,7 +4,7 @@ export default function TeamInfo() {
   return (
     <>
       <img src="/glcwsa/registration-team.jpg" alt="Registering a Team" className="w-full object-cover" />
-      <div className="max-w-3xl mx-auto mt-[80px] p-6 bg-white rounded text-lg leading-relaxed ">
+      <div className="max-w-3xl mx-auto mt-[30px] p-6 bg-white rounded text-lg leading-relaxed ">
         <div id="checklist-section"></div>
         <section className="mt-8">
           <h2 className="text-3xl text-center font-bold font-merriweather mb-4">Registering a Team</h2>
