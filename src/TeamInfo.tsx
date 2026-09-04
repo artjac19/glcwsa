@@ -30,12 +30,28 @@ export default function TeamInfo() {
         <div id="points-section"></div>
         <section className="mt-8">
           <h2 className="text-3xl text-center font-bold font-merriweather mb-4">Point Opportunities</h2>
-        <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Team Great Lakes Incentives</h3>
+        <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Team Great Lakes Incentives</h3>nopm 
         <p className="mb-4">The top 3 teams from the Great Lakes with the most points at the end of the combined Spring and Fall seasons will receive a cash reward at the Winter Conference banquet.</p>
         <ul className="list-disc list-inside mb-4 ml-6">
           <li>First Place = $750</li>
           <li>Second Place = $500</li>
           <li>Third Place = $250</li>
+        </ul>
+        <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Officials Incentive</h3>
+        <p className="mb-4">Earn points for your team by volunteering as an official. Points are tallied each tournament — the top three teams take home cash prizes.</p>
+        <ul className="list-disc list-inside mb-4 ml-6">
+          <li className="font-bold mt-2">
+            How Points Are Earned
+            <ul className="list-disc list-inside mb-2 ml-6 font-normal">
+              <li>Judge, Driver, or Scorer — 1 point per position, per event</li>
+              <li>Dock starting — max 1 point per person, per tournament</li>
+              <li>Safety Coordinator — 1 point per person, per tournament</li>
+              <li>Technical Controller in Training — 1 point per person, per tournament</li>
+            </ul>
+          </li>
+          <li>First Place = $400</li>
+          <li>Second Place = $250</li>
+          <li>Third Place = $100</li>
         </ul>
         <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Point Opportunities</h3>
         <ul className="list-disc list-inside mb-4 ml-6">
@@ -89,6 +105,12 @@ export default function TeamInfo() {
               <li>Random: The Midwest Executive Board can present point opportunities throughout the year at their discretion.</li>
             </ul>
           </li>
+        </ul>
+        <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Alumni Registry</h3>
+        <p className="mb-2">If you are an alumni and you would like to become registered, fill out the registry and the registration form.</p>
+        <ul className="list-disc list-inside mb-4 ml-6">
+          <li><a href="https://forms.gle/VU7RodBHhJ48KuDD9" className="underline" target="_blank" rel="noopener noreferrer">Registration form</a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1QpBIj5wX9RUpvN8LSAVwgTmCAbWiyZj3LS05q75aKEk/edit?usp=sharing" className="underline" target="_blank" rel="noopener noreferrer">Registry</a></li>
         </ul>
         <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Additional Information</h3>
         <ul className="list-disc list-inside mb-4 ml-6">
