@@ -100,6 +100,35 @@ function Home() {
           </div>
         </div>
         </div> {/* Close the max-width container div */}
+
+      <div className="mt-20">
+        <div id="officials-section" className="mb-8"></div>
+        <h2 className="mb-4 md:mb-6 lg:mb-8 text-3xl md:text-4xl lg:text-5xl font-bold text-center">OFFICIALS INCENTIVE</h2>
+        <div className="max-w-4xl mx-auto w-full sm:w-full md:w-4/5 lg:w-3/4 xl:w-2/3">
+          <p className="mb-8 text-center">Earn points for your team by volunteering as an official. Points are tallied each tournament — the top three teams take home cash prizes.</p>
+          <h3 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6 text-center font-['Montserrat']">HOW POINTS ARE EARNED</h3>
+          <ul className="mb-8 space-y-2 text-center">
+            <li>Judge, Driver, or Scorer — 1 point per position, per event</li>
+            <li>Dock starting — max 1 point per person, per tournament</li>
+            <li>Safety Coordinator — 1 point per person, per tournament</li>
+            <li>Technical Controller in Training — 1 point per person, per tournament</li>
+          </ul>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <div className="bg-gray-50 border border-gray-200 rounded-xl px-6 py-6">
+              <p className="text-lg font-bold">1st Place</p>
+              <p className="text-2xl font-bold text-brand">$400</p>
+            </div>
+            <div className="bg-gray-50 border border-gray-200 rounded-xl px-6 py-6">
+              <p className="text-lg font-bold">2nd Place</p>
+              <p className="text-2xl font-bold text-brand">$250</p>
+            </div>
+            <div className="bg-gray-50 border border-gray-200 rounded-xl px-6 py-6">
+              <p className="text-lg font-bold">3rd Place</p>
+              <p className="text-2xl font-bold text-brand">$100</p>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   <FooterNav
