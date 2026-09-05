@@ -56,6 +56,8 @@ export default function TeamInfo() {
         <p className="mb-4">After every tournament every representative has one week to submit their entry into the officials incentive. Linked below is the form that tracks your points that accumulate over the season!
         <br />
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqD5hbOMRuZOo9hhT6Dsad26Xx0ZgZc7J4oH5Wt5DX2WmvMA/viewform?usp=head" className="underline" target="_blank" rel="noopener noreferrer">Officials Incentive Form</a>
+        <br />
+        <a href="https://docs.google.com/spreadsheets/d/1Tod6Vzbzm-I77ifWGbisiy16SCYzbMe9jlbzAAmrAio/edit?usp=sharing" className="underline" target="_blank" rel="noopener noreferrer">Officials Incentive Leaderboard</a>
         </p>
         <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Point Opportunities</h3>
         <ul className="list-disc list-inside mb-4 ml-6">
@@ -111,7 +113,7 @@ export default function TeamInfo() {
           </li>
         </ul>
         <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Alumni Registry</h3>
-        <p className="mb-2">If you are an alumni and you would like to become registered, fill out the registry and the registration form.</p>
+        <p className="mb-2">Attention Alumni! Are you looking for an opprotunity to connect with alumni across the region? Enter your current information into the GLR Alumni Directory and start interacting with other alumni. Responses can be edited once forms are submitted!</p>
         <ul className="list-disc list-inside mb-4 ml-6">
           <li><a href="https://forms.gle/VU7RodBHhJ48KuDD9" className="underline" target="_blank" rel="noopener noreferrer">Registration form</a></li>
           <li><a href="https://docs.google.com/spreadsheets/d/1QpBIj5wX9RUpvN8LSAVwgTmCAbWiyZj3LS05q75aKEk/edit?usp=sharing" className="underline" target="_blank" rel="noopener noreferrer">Registry</a></li>
