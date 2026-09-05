@@ -53,6 +53,10 @@ export default function TeamInfo() {
           <li>Second Place = $250</li>
           <li>Third Place = $100</li>
         </ul>
+        <p className="mb-4">After every tournament every representative has one week to submit their entry into the officials incentive. Linked below is the form that tracks your points that accumulate over the season!
+        <br />
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqD5hbOMRuZOo9hhT6Dsad26Xx0ZgZc7J4oH5Wt5DX2WmvMA/viewform?usp=head" className="underline" target="_blank" rel="noopener noreferrer">Officials Incentive Form</a>
+        </p>
         <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Point Opportunities</h3>
         <ul className="list-disc list-inside mb-4 ml-6">
           <li className="font-bold mt-2">
