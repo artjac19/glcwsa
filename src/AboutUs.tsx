@@ -91,14 +91,7 @@ export default function AboutUs() {
                 <tr key={i}>
                   <td className="px-4 py-1">{member.name}</td>
                   <td className="px-4 py-1">{member.position}</td>
-                  <td className="px-4 py-1">
-                    <input
-                      type="text"
-                      placeholder="Enter school"
-                      defaultValue={member.school ?? ""}
-                      className="w-full border border-gray-300 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-brand"
-                    />
-                  </td>
+                  <td className="px-4 py-1">{member.school}</td>
                 </tr>
               ))}
             </tbody>
@@ -123,14 +116,7 @@ export default function AboutUs() {
                 <tr key={i}>
                   <td className="px-4 py-1">{member.name}</td>
                   <td className="px-4 py-1">{member.position}</td>
-                  <td className="px-4 py-1">
-                    <input
-                      type="text"
-                      placeholder="Enter school"
-                      defaultValue={member.school ?? ""}
-                      className="w-full border border-gray-300 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-brand"
-                    />
-                  </td>
+                  <td className="px-4 py-1">{member.school}</td>
                 </tr>
               ))}
             </tbody>

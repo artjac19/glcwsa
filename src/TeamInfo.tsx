@@ -53,64 +53,10 @@ export default function TeamInfo() {
           <li>Second Place = $250</li>
           <li>Third Place = $100</li>
         </ul>
-        <p className="mb-4">After every tournament every representative has one week to submit their entry into the officials incentive. Linked below is the form that tracks your points that accumulate over the season!
-        <br />
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqD5hbOMRuZOo9hhT6Dsad26Xx0ZgZc7J4oH5Wt5DX2WmvMA/viewform?usp=head" className="underline" target="_blank" rel="noopener noreferrer">Officials Incentive Form</a>
-        <br />
-        <a href="https://docs.google.com/spreadsheets/d/1Tod6Vzbzm-I77ifWGbisiy16SCYzbMe9jlbzAAmrAio/edit?usp=sharing" className="underline" target="_blank" rel="noopener noreferrer">Officials Incentive Leaderboard</a>
-        </p>
-        <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Point Opportunities</h3>
+        <p className="mb-4">After every tournament every representative has one week to submit their entry into the officials incentive. Linked below is the form that tracks your points that accumulate over the season!</p>
         <ul className="list-disc list-inside mb-4 ml-6">
-          <li className="font-bold mt-2">
-            Tournament Preparedness
-            <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-              <li>Having GLR, NCWSA, Conference money ready and correct (cash/check): 5 pts.</li>
-              <li>Having all eligibility forms completed and correct:
-                <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-                  <li>Points early (the Sunday prior to Conference): 20 pts.</li>
-                  <li>Point as of Friday – complete and correct: 5 points</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li className="font-bold mt-2">
-            Officials Points
-            <ul className="list-disc list-inside mb-2 ml-6">
-              <li className="font-semibold">Judges and Scorers
-                <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-                  <li>10 pts. per event for new and upgraded Judges and Scorers</li>
-                  <li>2 pt. per event worked (after completing your rating)</li>
-                </ul>
-              </li>
-              <li className="font-semibold">Drivers
-                <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-                  <li>10 pts. per event for new and upgraded Drivers (Assistant and above)</li>
-                  <li>3 pt. per event worked for Drivers (after completing your rating)</li>
-                </ul>
-              </li>
-              <li className="font-semibold">Safety
-                <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-                  <li>10 pts. per new and upgraded Safety (state and above)</li>
-                  <li>4 pts. per tournament worked (ratings per event are not required and are not trackable, only the Chief Safety position at a tournament can be tracked, thus the higher number of points is given)</li>
-                </ul>
-              </li>
-              <li className="font-semibold">TC (Technical Coordinator)
-                <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-                  <li>10 pts. for a new TC rating</li>
-                  <li>4 pts. per tournament worked (TC can only be tracked per tournament, so higher points are awarded)</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li className="font-bold mt-2">
-            Other Tournament Help Points
-            <ul className="list-disc list-inside mb-2 ml-6 font-normal">
-              <li>Rope Handling: 1 pt. per person to help (must be at least a couple rounds and must be radioed in)</li>
-              <li>Dock Starting: 1 pt. per person to help (must be at least a couple rounds and must be radioed in)</li>
-              <li>Waivers ALL completed by 2 days before the tournament starts: 3 pts.</li>
-              <li>Random: The Midwest Executive Board can present point opportunities throughout the year at their discretion.</li>
-            </ul>
-          </li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeqD5hbOMRuZOo9hhT6Dsad26Xx0ZgZc7J4oH5Wt5DX2WmvMA/viewform?usp=head" className="underline" target="_blank" rel="noopener noreferrer">Officials Incentive Form</a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1Tod6Vzbzm-I77ifWGbisiy16SCYzbMe9jlbzAAmrAio/edit?usp=sharing" className="underline" target="_blank" rel="noopener noreferrer">Officials Incentive Leaderboard</a></li>
         </ul>
         <h3 className="text-xl font-bold font-merriweather mt-6 mb-2">Alumni Registry</h3>
         <p className="mb-2">Attention Alumni! Are you looking for an opprotunity to connect with alumni across the region? Enter your current information into the GLR Alumni Directory and start interacting with other alumni. Responses can be edited once forms are submitted!</p>
